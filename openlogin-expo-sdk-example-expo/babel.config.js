@@ -9,7 +9,7 @@ module.exports = function (api) {
       [
         "module-resolver",
         {
-          extensions: [".tsx", ".ts", ".js", ".json"],
+          extensions: [".tsx", ".ts", ".js", ".json", "cjs", "jsx"],
           alias: {
             [pak.name]: path.join(__dirname, "..", pak.source),
           },

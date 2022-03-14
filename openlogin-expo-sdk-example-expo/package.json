@@ -10,6 +10,11 @@
     "eject": "expo eject"
   },
   "dependencies": {
+    "@solana/web3.js": "^1.36.0",
+    "@web3auth/base": "^0.3.1",
+    "@web3auth/openlogin-adapter": "^0.3.1",
+    "@web3auth/solana-provider": "^0.3.1",
+    "@web3auth/web3auth": "^0.3.3",
     "expo": "~44.0.0",
     "expo-linking": "^3.0.0",
     "expo-status-bar": "~1.2.0",
@@ -17,7 +22,8 @@
     "react": "17.0.1",
     "react-dom": "17.0.1",
     "react-native": "0.64.3",
-    "react-native-web": "0.17.1"
+    "react-native-web": "0.17.1",
+    "web3": "^1.7.0"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",
